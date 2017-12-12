@@ -15,7 +15,12 @@ var ArticleSchema = new Schema({
 		type: String,
 		required: true
 	},
-	// Summary?
+	// 'summary' string -- required, strong
+	
+	// summary: {
+	// 	type: String,
+	// 	required: true
+	// },
 
 	// 'comment' -- object that stores a Comment id 
 		// The ref property links the ObjectId to the Comment model
